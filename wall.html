@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Afghan Proverbs Wall</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f7f3f0;
+      color: #333;
+    }
+    header {
+      background-color: #6e4c1e;
+      color: white;
+      padding: 1.2rem;
+      text-align: center;
+      font-size: 1.5rem;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background-color: white;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    .proverb {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #4b2e12;
+      margin-bottom: 0.5rem;
+    }
+    .meaning {
+      font-size: 0.95rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>Afghan Proverbs Wall</header>
+  <div class="container">
+    <div class="card">
+      <div class="proverb">"Oba ra bawar kun, ama dawd ra maqool kun."</div>
+      <div class="meaning">Trust in God, but tie your camel. (Have faith, but take precautions.)</div>
+    </div>
+    <div class="card">
+      <div class="proverb">"Yawazay palwasha dar khwand laas naygarza."</div>
+      <div class="meaning">One hand cannot clap alone. (Teamwork and cooperation are essential.)</div>
+    </div>
+    <div class="card">
+      <div class="proverb">"Charta chi atash way, lwand beya ba shud."</div>
+      <div class="meaning">Where there is fire, there will be smoke. (There’s always a sign of something happening.)</div>
+    </div>
+    <div class="card">
+      <div class="proverb">"Dul ghware chi yaw khar rawani we."</div>
+      <div class="meaning">Two heads are better than one. (Shared decisions are wiser.)</div>
+    </div>
+  </div>
+</body>
